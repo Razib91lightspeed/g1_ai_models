@@ -60,3 +60,10 @@ simulations/unitree_g1/unitree_mujoco/
 
 # Generated fixed-base simulation model
 simulations/unitree_g1/preview/g1_fixed_base.xml
+
+# Downloaded upstream Unitree RL Lab repository
+simulations/unitree_g1/dynamic_standing/unitree_rl_lab/
+
+# Python generated files
+__pycache__/
+*.pyc
