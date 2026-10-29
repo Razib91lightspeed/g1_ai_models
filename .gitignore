@@ -54,3 +54,9 @@ images/test.jpg
 
 # Local environment records (may expose machine configuration)
 configs/*/environment.txt
+
+# Downloaded official Unitree MuJoCo simulator
+simulations/unitree_g1/unitree_mujoco/
+
+# Generated fixed-base simulation model
+simulations/unitree_g1/preview/g1_fixed_base.xml
