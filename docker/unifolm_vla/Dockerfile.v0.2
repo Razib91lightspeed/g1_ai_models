@@ -1,0 +1,21 @@
+FROM g1-unifolm-vla:0.1
+
+WORKDIR /workspace/unifolm-vla
+
+# Preserve NVIDIA's PyTorch and torchvision builds
+RUN python -c 'import importlib.metadata as m; \
+print("torch=="+m.version("torch")); \
+print("torchvision=="+m.version("torchvision"))' \
+> /tmp/nvidia-constraints.txt
+
+# TensorFlow for image preprocessing
+RUN python -m pip install \
+    --constraint /tmp/nvidia-constraints.txt \
+    "tensorflow==2.20.0"
+
+# Confirm the original GPU framework versions remain
+RUN python -c 'import torch, tensorflow as tf; \
+print("PyTorch:",torch.__version__); \
+print("TensorFlow:",tf.__version__)'
+
+CMD ["/bin/bash"]

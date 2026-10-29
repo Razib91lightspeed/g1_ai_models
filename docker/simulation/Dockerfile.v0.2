@@ -1,0 +1,21 @@
+FROM g1-libero-sim:0.1
+
+USER root
+
+# Install Mesa software-rendering libraries inside Docker only.
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+      libosmesa6 \
+      libgl1 \
+      libgl1-mesa-dri \
+      libegl1 \
+      libgles2 \
+      libglvnd0 \
+      libglx0 && \
+    rm -rf /var/lib/apt/lists/*
+
+ENV MUJOCO_GL=osmesa
+ENV PYOPENGL_PLATFORM=osmesa
+ENV LIBGL_ALWAYS_SOFTWARE=1
+
+CMD ["/bin/bash"]
