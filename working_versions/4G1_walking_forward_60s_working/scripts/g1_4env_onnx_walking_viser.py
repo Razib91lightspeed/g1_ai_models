@@ -17,7 +17,7 @@ from isaaclab.cli import cli
 PROJECT = Path("/workspace/local")
 BASE = PROJECT / (
     "working_versions/"
-    "g1_4env_29dof_onnx_walking_newton_viser_verified"
+    "4G1_walking_forward_60s_working"
 )
 
 CONFIG = BASE / "policy/params/deploy.yaml"

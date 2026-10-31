@@ -55,7 +55,7 @@ docker run --rm -it \
   -e PYTHONPATH=/workspace/local/temp/isaac_lab/onnxdeps \
   nvcr.io/nvidia/isaac-lab:3.0.0-kitless \
   /opt/isaaclab-venv/bin/python -B \
-  /workspace/local/working_versions/g1_4env_29dof_onnx_walking_newton_viser_verified/scripts/g1_4env_onnx_walking_viser.py
+  /workspace/local/working_versions/4G1_walking_forward_60s_working/scripts/g1_4env_onnx_walking_viser.py
 ```
 
 On your Mac:
