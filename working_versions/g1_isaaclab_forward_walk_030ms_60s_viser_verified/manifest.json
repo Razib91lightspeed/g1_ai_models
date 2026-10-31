@@ -1,0 +1,33 @@
+{
+  "name": "g1_isaaclab_forward_walk_030ms_60s_viser_verified",
+  "saved_at_utc": "2026-10-31T19:39:50.430193+00:00",
+  "status": "Visually confirmed by operator",
+  "robot": "Unitree G1 29 DOF",
+  "simulator": "NVIDIA Isaac Lab 3.0 / Newton",
+  "docker_image": "nvcr.io/nvidia/isaac-lab:3.0.0-kitless",
+  "policy_type": "ONNX pretrained locomotion policy",
+  "commanded_forward_speed_m_s": 0.3,
+  "simulation_duration_s": 60,
+  "forward_acceleration_interval_s": [
+    3,
+    5
+  ],
+  "constant_speed_interval_s": [
+    5,
+    55
+  ],
+  "deceleration_interval_s": [
+    55,
+    57
+  ],
+  "viewer_port": 8080,
+  "safety_checks": "Preserved from source controller",
+  "checksums_sha256": {
+    "walk_60s_visual_isaaclab.py": "d1bd128b9dae0b704dd2a4578f4adfcff6a9274559ea4478a0d06963284a953b",
+    "g1_29dof_env_cfg.py": "42c509b70a0f1a658249705d2449c37f1c97b392d8c1e64bc6ae7dd863ad42bf",
+    "g1_onnx_adapter.py": "8a68f68f3e50184fd3e64928b37de09161874c80c3c86e9cf333a99c7cb99222",
+    "policy/exported/policy.onnx": "610c27e463a8f666aa50a06346678c00b4df3859f10b54bcc1f817c28251406f",
+    "policy/params/deploy.yaml": "64b04c0596a7010f39f8ac6e9ec46dc750141063cdcf2d42c83ecc444e57bc63",
+    "logs/g1_walk_60s_visual.log": "3324a7a3c2983e62ea9d6aff3dcef9403a6e6a0f1d9880c5d27930a25aaac54c"
+  }
+}
