@@ -1,0 +1,268 @@
+[
+    {
+        "Id": "672de844fb50d31a39c5f3509ca189eb04d96cb6caa8b056fe71954a08b920f0",
+        "Created": "2026-11-02T09:42:27.809187974Z",
+        "Path": "/opt/isaaclab-venv/bin/python",
+        "Args": [
+            "-B",
+            "/workspace/local/working_versions/4G1_walking_forward_60s_working/scripts/g1_4env_onnx_walking_viser.py"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 1,
+            "Error": "",
+            "StartedAt": "2026-11-02T09:42:27.878016617Z",
+            "FinishedAt": "2026-11-02T09:43:40.068341646Z"
+        },
+        "Image": "sha256:d47169952b55effb46dba8f79761d381532b521561ecba38a3019adc7648884b",
+        "ResolvConfPath": "/home/rhasan/.local/share/docker/containers/672de844fb50d31a39c5f3509ca189eb04d96cb6caa8b056fe71954a08b920f0/resolv.conf",
+        "HostnamePath": "/home/rhasan/.local/share/docker/containers/672de844fb50d31a39c5f3509ca189eb04d96cb6caa8b056fe71954a08b920f0/hostname",
+        "HostsPath": "/home/rhasan/.local/share/docker/containers/672de844fb50d31a39c5f3509ca189eb04d96cb6caa8b056fe71954a08b920f0/hosts",
+        "LogPath": "",
+        "Name": "/g1-visual-experiment",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "local",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "8082"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                30,
+                82
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "host",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 200,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "label=disable"
+            ],
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": [
+                {
+                    "Driver": "cdi",
+                    "Count": 0,
+                    "DeviceIDs": [
+                        "nvidia.com/gpu=all"
+                    ],
+                    "Capabilities": null,
+                    "Options": null
+                }
+            ],
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [
+                {
+                    "Name": "memlock",
+                    "Hard": -1,
+                    "Soft": -1
+                },
+                {
+                    "Name": "stack",
+                    "Hard": 67108864,
+                    "Soft": 67108864
+                }
+            ],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "Mounts": [
+                {
+                    "Type": "bind",
+                    "Source": "/home/rhasan/Desktop/razib/ai_models",
+                    "Target": "/workspace/local"
+                }
+            ],
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/rhasan/Desktop/razib/ai_models",
+                "Destination": "/workspace/local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "672de844fb50",
+            "Domainname": "",
+            "User": "0:0",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "TORCH_HOME=/workspace/local/simulations/unitree_g1/parallel_rl/cache/torch",
+                "TMPDIR=/workspace/local/tmp",
+                "TMP=/workspace/local/tmp",
+                "TEMP=/workspace/local/tmp",
+                "PYTHONDONTWRITEBYTECODE=1",
+                "PYTHONPATH=/workspace/local/temp/isaac_lab/onnxdeps",
+                "HOME=/workspace/local/simulations/unitree_g1/parallel_rl/cache/home",
+                "XDG_CACHE_HOME=/workspace/local/simulations/unitree_g1/parallel_rl/cache/xdg",
+                "TRITON_CACHE_DIR=/workspace/local/simulations/unitree_g1/parallel_rl/cache/triton",
+                "CUDA_CACHE_PATH=/workspace/local/simulations/unitree_g1/parallel_rl/cache/cuda",
+                "PATH=/opt/isaaclab-venv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "ISAACLAB_PATH=/workspace/isaaclab",
+                "DEBIAN_FRONTEND=noninteractive",
+                "LANG=C.UTF-8",
+                "DOCKER_USER_HOME=/home/isaaclab",
+                "VIRTUAL_ENV=/opt/isaaclab-venv",
+                "UV_PROJECT_ENVIRONMENT=/opt/isaaclab-venv",
+                "UV_PYTHON=/usr/bin/python3.12",
+                "UV_PYTHON_PREFERENCE=only-system",
+                "UV_NO_SYNC=1",
+                "PYTHONUNBUFFERED=1",
+                "NVIDIA_VISIBLE_DEVICES=all",
+                "NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics"
+            ],
+            "Cmd": [
+                "/opt/isaaclab-venv/bin/python",
+                "-B",
+                "/workspace/local/working_versions/4G1_walking_forward_60s_working/scripts/g1_4env_onnx_walking_viser.py"
+            ],
+            "Image": "nvcr.io/nvidia/isaac-lab:3.0.0-kitless",
+            "Volumes": null,
+            "WorkingDir": "/workspace/local",
+            "Entrypoint": null,
+            "Labels": {
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "",
+            "SandboxKey": "",
+            "Ports": {},
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "5ecfe6bcf04dda9b7e6e053ade443557eefa5de3342fa492242a8f7193500d15",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "MacAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:0af83140cd8cccd276059d5134ca429a18964b90bbd4db6d1dea77f38bdb839b",
+            "size": 2010,
+            "platform": {
+                "architecture": "arm64",
+                "os": "linux"
+            }
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "stand_isaaclab",
+  "status": "PASSED_SINGLE_SIMULATION_RUN",
+  "engine": "Isaac Lab 3.0 / Newton MJWarp",
+  "controller": "Unitree G1 29-DoF ONNX velocity policy",
+  "duration_seconds": 20.0,
+  "steps": 1000,
+  "control_dt": 0.02,
+  "waving_enabled": false,
+  "physical_robot_tested": false,
+  "files": {
+    "stand_isaaclab.py": "e78be4546bde788b3a56e3f01fc296fcca2926e53155913cceffd53bc9874975",
+    "g1_onnx_adapter.py": "8a68f68f3e50184fd3e64928b37de09161874c80c3c86e9cf333a99c7cb99222",
+    "g1_29dof_env_cfg.py": "42c509b70a0f1a658249705d2449c37f1c97b392d8c1e64bc6ae7dd863ad42bf",
+    "policy/params/deploy.yaml": "64b04c0596a7010f39f8ac6e9ec46dc750141063cdcf2d42c83ecc444e57bc63",
+    "policy/exported/policy.onnx": "610c27e463a8f666aa50a06346678c00b4df3859f10b54bcc1f817c28251406f"
+  }
+}

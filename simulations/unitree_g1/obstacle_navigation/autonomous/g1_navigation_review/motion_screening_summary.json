@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "simulation_only": true,
+  "created_utc": "20261029T231656_860407Z",
+  "mujoco_version": "3.3.5",
+  "bounds_xy": [
+    -1.3,
+    11.98,
+    -2.8,
+    2.8
+  ],
+  "extra_body_buffer_m": 0.55,
+  "collision_masks_preserved": true,
+  "policy_sha256": "610c27e463a8f666aa50a06346678c00b4df3859f10b54bcc1f817c28251406f",
+  "config_sha256": "64b04c0596a7010f39f8ac6e9ec46dc750141063cdcf2d42c83ecc444e57bc63",
+  "scene_xml_sha256": "53dbba3938ba96daf90e151bc4aa0824f7401bd6e118710873f5a7bed985778b",
+  "locomotion_source_sha256": "52868c977be790303f3ecadd0491e1548c1a8d3fc0aa7a84537eb97d230b2e82",
+  "note": "One repeat is a screening test. Circle fits are diagnostics, not safe maneuver bounds.",
+  "cases": [
+    {
+      "name": "v0.40_straight_r1",
+      "speed_command_mps": 0.4,
+      "yaw_command_rps": 0.0,
+      "reason": "straight_completed",
+      "completed": true,
+      "standing_after_stop": true,
+      "trial_passed": true,
+      "yaw_change_deg": 2.322445376373165,
+      "measured_mean_speed_mps": 0.37646090800683624,
+      "max_tilt_after_support_deg": 2.430897092629639,
+      "minimum_boundary_buffer_m": 2.230234528456081,
+      "circle_fit_diagnostic": null,
+      "braking_displacement_max_m": 0.3131356331923506,
+      "csv": "v0.40_straight_r1.csv"
+    },
+    {
+      "name": "v0.40_left_r1",
+      "speed_command_mps": 0.4,
+      "yaw_command_rps": 0.3,
+      "reason": "boundary_stop",
+      "completed": false,
+      "standing_after_stop": true,
+      "trial_passed": false,
+      "yaw_change_deg": 181.12706544325326,
+      "measured_mean_speed_mps": 0.37234856821295764,
+      "max_tilt_after_support_deg": 2.7152897015682953,
+      "minimum_boundary_buffer_m": 0.3447847106187649,
+      "circle_fit_diagnostic": {
+        "radius_m": 1.8137104052917383,
+        "radial_rmse_m": 0.005539694961499711,
+        "radial_max_error_m": 0.00854860365653587
+      },
+      "braking_displacement_max_m": 0.2993766212680177,
+      "csv": "v0.40_left_r1.csv"
+    },
+    {
+      "name": "v0.40_right_r1",
+      "speed_command_mps": 0.4,
+      "yaw_command_rps": -0.3,
+      "reason": "boundary_stop",
+      "completed": false,
+      "standing_after_stop": true,
+      "trial_passed": false,
+      "yaw_change_deg": -165.03080591141708,
+      "measured_mean_speed_mps": 0.3765952197673618,
+      "max_tilt_after_support_deg": 2.6977988166774587,
+      "minimum_boundary_buffer_m": 0.25428618630486466,
+      "circle_fit_diagnostic": {
+        "radius_m": 1.8647786273678937,
+        "radial_rmse_m": 0.004237438069885053,
+        "radial_max_error_m": 0.007054365961135511
+      },
+      "braking_displacement_max_m": 0.31635698622367836,
+      "csv": "v0.40_right_r1.csv"
+    },
+    {
+      "name": "v0.32_straight_r1",
+      "speed_command_mps": 0.32,
+      "yaw_command_rps": 0.0,
+      "reason": "straight_completed",
+      "completed": true,
+      "standing_after_stop": true,
+      "trial_passed": true,
+      "yaw_change_deg": 4.941360854732455,
+      "measured_mean_speed_mps": 0.29564433782377286,
+      "max_tilt_after_support_deg": 2.188721687147231,
+      "minimum_boundary_buffer_m": 2.2294645269448186,
+      "circle_fit_diagnostic": null,
+      "braking_displacement_max_m": 0.20104273121014446,
+      "csv": "v0.32_straight_r1.csv"
+    },
+    {
+      "name": "v0.32_left_r1",
+      "speed_command_mps": 0.32,
+      "yaw_command_rps": 0.3,
+      "reason": "turn_completed",
+      "completed": true,
+      "standing_after_stop": true,
+      "trial_passed": true,
+      "yaw_change_deg": 185.83523982191997,
+      "measured_mean_speed_mps": 0.2910831858443724,
+      "max_tilt_after_support_deg": 2.683260781336486,
+      "minimum_boundary_buffer_m": 0.5262750889205743,
+      "circle_fit_diagnostic": {
+        "radius_m": 1.398361142713348,
+        "radial_rmse_m": 0.005004542200852781,
+        "radial_max_error_m": 0.008144971965222458
+      },
+      "braking_displacement_max_m": 0.18615684626630455,
+      "csv": "v0.32_left_r1.csv"
+    },
+    {
+      "name": "v0.32_right_r1",
+      "speed_command_mps": 0.32,
+      "yaw_command_rps": -0.3,
+      "reason": "turn_completed",
+      "completed": true,
+      "standing_after_stop": true,
+      "trial_passed": true,
+      "yaw_change_deg": -180.74118513532528,
+      "measured_mean_speed_mps": 0.29234879157444793,
+      "max_tilt_after_support_deg": 3.2106971031694607,
+      "minimum_boundary_buffer_m": 0.5410853347290698,
+      "circle_fit_diagnostic": {
+        "radius_m": 1.5135019872916735,
+        "radial_rmse_m": 0.0036809217567088594,
+        "radial_max_error_m": 0.006672422742361128
+      },
+      "braking_displacement_max_m": 0.21567876742885603,
+      "csv": "v0.32_right_r1.csv"
+    },
+    {
+      "name": "v0.25_straight_r1",
+      "speed_command_mps": 0.25,
+      "yaw_command_rps": 0.0,
+      "reason": "straight_completed",
+      "completed": true,
+      "standing_after_stop": true,
+      "trial_passed": true,
+      "yaw_change_deg": 0.00283026885114741,
+      "measured_mean_speed_mps": 0.13099420075779813,
+      "max_tilt_after_support_deg": 2.946534165757326,
+      "minimum_boundary_buffer_m": 2.2245097893213117,
+      "circle_fit_diagnostic": null,
+      "braking_displacement_max_m": 0.08285338208029926,
+      "csv": "v0.25_straight_r1.csv"
+    },
+    {
+      "name": "v0.25_left_r1",
+      "speed_command_mps": 0.25,
+      "yaw_command_rps": 0.3,
+      "reason": "turn_completed",
+      "completed": true,
+      "standing_after_stop": true,
+      "trial_passed": true,
+      "yaw_change_deg": 184.86701165950768,
+      "measured_mean_speed_mps": 0.21509306305783352,
+      "max_tilt_after_support_deg": 2.4318849833016194,
+      "minimum_boundary_buffer_m": 0.5351551555680878,
+      "circle_fit_diagnostic": {
+        "radius_m": 1.086511618952478,
+        "radial_rmse_m": 0.0045477837472981805,
+        "radial_max_error_m": 0.010311482593265087
+      },
+      "braking_displacement_max_m": 0.11400843114813097,
+      "csv": "v0.25_left_r1.csv"
+    },
+    {
+      "name": "v0.25_right_r1",
+      "speed_command_mps": 0.25,
+      "yaw_command_rps": -0.3,
+      "reason": "motion_timeout",
+      "completed": false,
+      "standing_after_stop": true,
+      "trial_passed": false,
+      "yaw_change_deg": -35.17997434577839,
+      "measured_mean_speed_mps": 0.0054053563661444195,
+      "max_tilt_after_support_deg": 4.07355433355723,
+      "minimum_boundary_buffer_m": 0.5276959160574652,
+      "circle_fit_diagnostic": {
+        "radius_m": 0.08853595820566759,
+        "radial_rmse_m": 0.0036087508495101102,
+        "radial_max_error_m": 0.01562107308621738
+      },
+      "braking_displacement_max_m": 0.0453817954751032,
+      "csv": "v0.25_right_r1.csv"
+    }
+  ]
+}

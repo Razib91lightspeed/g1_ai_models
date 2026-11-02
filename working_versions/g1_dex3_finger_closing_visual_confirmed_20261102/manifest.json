@@ -1,0 +1,17 @@
+{
+  "status": "Finger curling visually confirmed by user; thumb unresolved",
+  "date": "2026-11-02",
+  "experiment": "Four G1 fixed-base Dex3 finger closing",
+  "finger_closure_levels": {
+    "G1_1": "reference",
+    "G1_2": 0.5,
+    "G1_3": 0.75,
+    "G1_4": 0.9
+  },
+  "notes": [
+    "Both index and middle finger joints commanded on both hands.",
+    "Finger closing is not yet tested during walking.",
+    "Thumb pose has not been validated.",
+    "Source scripts preserved without modification."
+  ]
+}

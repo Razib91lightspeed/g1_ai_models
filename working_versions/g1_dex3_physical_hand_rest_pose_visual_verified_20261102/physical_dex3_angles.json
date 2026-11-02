@@ -1,0 +1,21 @@
+{
+  "source": "Physical Unitree G1 Dex3 HandState feedback",
+  "date": "2026-11-02",
+  "units": "degrees",
+  "angles": {
+    "left_hand_thumb_0_joint": 30.6766,
+    "left_hand_thumb_1_joint": 60.3186,
+    "left_hand_thumb_2_joint": 85.4347,
+    "left_hand_index_0_joint": -91.9567,
+    "left_hand_index_1_joint": -100.0102,
+    "left_hand_middle_0_joint": -91.6749,
+    "left_hand_middle_1_joint": -98.559,
+    "right_hand_thumb_0_joint": -2.45,
+    "right_hand_thumb_1_joint": -55.8133,
+    "right_hand_thumb_2_joint": -94.3222,
+    "right_hand_index_0_joint": 87.8579,
+    "right_hand_index_1_joint": 97.9258,
+    "right_hand_middle_0_joint": 88.3624,
+    "right_hand_middle_1_joint": 98.5291
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "G1 four-environment ONNX walking",
+  "status": "Observed stable in original four-env runtime",
+  "robots": 4,
+  "controlled_dof_per_robot": 29,
+  "physics": "Isaac Lab 3.0 / Newton",
+  "visualization": "Viser",
+  "controller": "Pretrained Unitree G1 ONNX",
+  "reference_speed_mps": 0.3,
+  "verified_observation": "Four robots walking stably in browser",
+  "note": "Copied standalone directory requires a fresh runtime test",
+  "saved_utc": "2026-10-31T21:09:04.714685+00:00"
+}

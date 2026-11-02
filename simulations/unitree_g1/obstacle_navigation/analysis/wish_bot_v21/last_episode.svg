@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="520" viewBox="0 0 1220 520">
+<rect width="1220" height="520" fill="#f6f8fc"/>
+<text x="60" y="35" font-size="22" font-family="sans-serif">WISH_BOT: Final episode trajectory</text>
+<rect x="60" y="55" width="1083" height="380" fill="white" stroke="#475569" stroke-width="2"/>
+<polyline points="197.8,245.1 202.2,244.1 233.8,248.0 285.1,252.2 337.8,266.2 389.0,277.1 434.6,280.5 498.4,286.1 554.7,286.6 608.0,270.0 634.8,257.2 687.1,255.4 739.8,265.3 795.8,270.8 851.4,271.2 908.2,269.0 961.6,262.6" fill="none" stroke="#0284c7" stroke-width="3"/>
+<circle cx="197.8" cy="245.0" r="7" fill="#2563eb"/><text x="207.8" y="233.0" font-size="15" font-family="sans-serif">HOME</text>
+<circle cx="1005.2" cy="245.0" r="7" fill="#9333ea"/><text x="1015.2" y="233.0" font-size="15" font-family="sans-serif">GOAL</text>
+<circle cx="961.6" cy="262.6" r="7" fill="#dc2626"/>
+<text x="60" y="475" font-size="14" font-family="sans-serif">Blue = outbound | Green = return | Red = final sampled position. Obstacle geometry is not plotted.</text></svg>

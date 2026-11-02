@@ -1,0 +1,11 @@
+{
+  "name": "standing_baseline_test",
+  "status": "UNVERIFIED",
+  "description": "ONNX standing controller candidate. Continuous balance must be tested.",
+  "source": "run_g1_onnx.before_pose_hold.py",
+  "files": {
+    "g1_29dof_env_cfg.py": "42c509b70a0f1a658249705d2449c37f1c97b392d8c1e64bc6ae7dd863ad42bf",
+    "run_g1_onnx.py": "34460786d9499ecf11d440d204dd57c204161797242a74f9526093943f8eaf0d",
+    "g1_onnx_adapter.py": "8a68f68f3e50184fd3e64928b37de09161874c80c3c86e9cf333a99c7cb99222"
+  }
+}

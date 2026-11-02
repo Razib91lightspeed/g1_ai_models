@@ -1,0 +1,13 @@
+{
+  "completed_episodes": 30,
+  "episodes_reaching_goal": 0,
+  "episodes_with_at_least_3_obstacles": 2,
+  "verified_successes": 0,
+  "failure_reasons": {
+    "boundary_blocked": 28,
+    "collision": 1,
+    "turn_blocked": 1
+  },
+  "average_episode_seconds": 33.93,
+  "telemetry_samples": 490
+}

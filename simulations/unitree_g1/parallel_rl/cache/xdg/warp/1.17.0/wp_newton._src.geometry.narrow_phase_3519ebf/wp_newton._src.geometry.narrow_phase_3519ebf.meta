@@ -1,0 +1,1 @@
+{"compute_mesh_plane_vert_counts_1b66b83b_cuda_kernel_forward_smem_bytes": 0, "narrow_phase_find_mesh_triangle_overlaps_kernel_ec87a852_cuda_kernel_forward_smem_bytes": 2096, "verify_narrow_phase_buffers_77619ee7_cuda_kernel_forward_smem_bytes": 0}

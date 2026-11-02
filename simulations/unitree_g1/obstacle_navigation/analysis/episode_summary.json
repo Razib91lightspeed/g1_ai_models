@@ -1,0 +1,32 @@
+[
+  {
+    "utc": "2026-10-30T09:46:21.291149+00:00",
+    "event": "episode_finished",
+    "episode": 1,
+    "outcome": "assistance_required",
+    "reached_goal": true,
+    "obstacles_placed": 3,
+    "obstacle_requests": 3,
+    "position": [
+      8.858,
+      0.18
+    ],
+    "status": "assistance_required",
+    "elapsed_seconds": 41.55
+  },
+  {
+    "utc": "2026-10-30T09:46:37.812349+00:00",
+    "event": "episode_finished",
+    "episode": 2,
+    "outcome": "stalled",
+    "reached_goal": false,
+    "obstacles_placed": 2,
+    "obstacle_requests": 2,
+    "position": [
+      1.572,
+      -0.243
+    ],
+    "status": "stalled",
+    "elapsed_seconds": 14.82
+  }
+]
