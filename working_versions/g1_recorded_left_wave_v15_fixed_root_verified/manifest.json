@@ -1,0 +1,23 @@
+{
+  "description": "Fixed-root, visually verified recorded left-arm wave. Not a free-standing balance demonstration.",
+  "created_utc": "2026-11-03T20:06:23.989193+00:00",
+  "status": "Previously verified; copied without modification",
+  "runtime_note": "Scripts may reference other project paths, models and configuration files. This snapshot is not claimed to be standalone.",
+  "files": [
+    {
+      "snapshot_path": "scripts/g1_4env_recorded_left_wave_physical_dex3_v15.py",
+      "source_path": "simulations/unitree_g1/parallel_rl/experiments/g1_realdata_turn_return/scripts/g1_4env_recorded_left_wave_physical_dex3_v15.py",
+      "sha256": "ebcaf2a954018703dc17894b5616e78f0c932902cc56de46e440780fb730a983"
+    },
+    {
+      "snapshot_path": "recordings/left_arm_wave_softlimited.csv",
+      "source_path": "simulations/unitree_g1/parallel_rl/experiments/g1_realdata_turn_return/recordings/left_arm_wave_reference_v1/left_arm_wave_softlimited.csv",
+      "sha256": "1782488706c4e7247da298f9379f5ff4dae88922388f7db0988427fe1d0cade1"
+    },
+    {
+      "snapshot_path": "configs/g1_4env_relaxed_hands_v2_cfg.py",
+      "source_path": "simulations/unitree_g1/parallel_rl/experiments/dex3_fixed_base_calibration/configs/g1_4env_relaxed_hands_v2_cfg.py",
+      "sha256": "07480ae4a1930a9f7663e2fb98b0876c272a09fabd90a42d6dd3bb7f6a650ff7"
+    }
+  ]
+}
