@@ -1,0 +1,52 @@
+{
+  "experiment_id": "walking_obstical_training_1",
+  "experiment_type": "2D PPO navigation training",
+  "source_experiment": "simulations/unitree_g1/parallel_rl/experiments/g1_goal_navigation_training",
+  "archive_created_utc": "2026-11-04T10:12:54.826504+00:00",
+  "training_ended_helsinki": "2026-11-04T08:00:00.015163+02:00",
+  "device": "cuda",
+  "model_type": "2D kinematic navigation proxy, not Isaac Lab G1",
+  "updates": 23467,
+  "total_episodes": 1482381,
+  "total_successes": 1393673,
+  "total_collisions": 81484,
+  "files": [
+    {
+      "archive_path": "results/summary.json",
+      "original_path": "simulations/unitree_g1/parallel_rl/experiments/g1_goal_navigation_training/overnight_20261103/summary.json",
+      "sha256": "2d93eada20a5858c51cc3f7082c2328c28a16b9e04736db4cd0777c141aaede6",
+      "bytes": 341
+    },
+    {
+      "archive_path": "results/metrics.csv",
+      "original_path": "simulations/unitree_g1/parallel_rl/experiments/g1_goal_navigation_training/overnight_20261103/metrics.csv",
+      "sha256": "e181e101e8bd7d2e2fd28894a8a9b37ba3e2f6a67fa979330d692a3e8e4de7ef",
+      "bytes": 187270
+    },
+    {
+      "archive_path": "results/training.log",
+      "original_path": "simulations/unitree_g1/parallel_rl/experiments/g1_goal_navigation_training/overnight_20261103/train.log",
+      "sha256": "3a65a0bac9cb9725a80c59861d201b107c661549d6e1c14da9cff22db867ee61",
+      "bytes": 220312
+    },
+    {
+      "archive_path": "checkpoints/latest.pt",
+      "original_path": "simulations/unitree_g1/parallel_rl/experiments/g1_goal_navigation_training/overnight_20261103/latest.pt",
+      "sha256": "ce27a67864ed1bf8bd362abba27d808a5086fec55f8f2edb5a0da8f7f0a7fbe3",
+      "bytes": 267613
+    },
+    {
+      "archive_path": "source/train_nav_ppo.py",
+      "original_path": "simulations/unitree_g1/parallel_rl/experiments/g1_goal_navigation_training/scripts/train_nav_ppo.py",
+      "sha256": "bc12d778f606ae12c50ac6223346102e2981b74418d70af93e1912bbbbdfc4b4",
+      "bytes": 14111
+    },
+    {
+      "archive_path": "source/start_g1_nav_overnight.sh",
+      "original_path": "simulations/unitree_g1/parallel_rl/experiments/g1_goal_navigation_training/start_g1_nav_overnight.sh",
+      "sha256": "3954425405461ab526d58363ae818c843083c2cf5ecd4ba80f1c298eb8541032",
+      "bytes": 2378
+    }
+  ],
+  "archive_git_head_at_creation": "c769c03cf008d8cbc62071be19f871d8e9d43a49"
+}

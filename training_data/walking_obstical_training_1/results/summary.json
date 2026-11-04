@@ -1,0 +1,13 @@
+{
+  "ended_helsinki": "2026-11-04T08:00:00.015163+02:00",
+  "updates": 23467,
+  "totals": {
+    "episodes": 1482381,
+    "successes": 1393673,
+    "collisions": 81484
+  },
+  "device": "cuda",
+  "model_type": "2D kinematic navigation proxy, not Isaac Lab G1",
+  "stopped_by_signal": false,
+  "deadline_helsinki": "2026-11-04T08:00:00+02:00"
+}
