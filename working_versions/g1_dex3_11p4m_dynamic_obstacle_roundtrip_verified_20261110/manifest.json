@@ -1,0 +1,28 @@
+{
+  "name": "g1_dex3_11p4m_dynamic_obstacle_roundtrip_verified_20261110",
+  "status": "user-reported successful full round trip",
+  "mission_distance_m": 11.4,
+  "engine": "MuJoCo",
+  "robot": "Unitree G1 Dex3 43 actuators",
+  "simulated_sensors": [
+    "LiDAR"
+  ],
+  "navigation": "A* with waypoint following",
+  "obstacles": "dynamic outbound and return spawning",
+  "thumb_offset_deg": -8,
+  "files_sha256": {
+    "dex3_astar_mission_v24.py": "b69fb95f32bf716aa803b08be1a002ecf27181839594c8c0a3359ab6300185e5",
+    "dex3_dynamic_obstacles_v3.py": "5953755f1e4a614ce1b04b4eff0dcd4e384da36a64202f054b6180258e2cfd8d",
+    "dex3_live_viser_v14.py": "cf927fc35f0e689b0119c25611c2b22ec5f138268c777159551a71c23a420a5c",
+    "dex3_return_follower_v3.py": "0af5232969f288ff04641994b2fdd62cb65c2ad81d5923fb7483bd2471b7792f",
+    "dex3_route_follower_v3.py": "634c6a8a32600ede31d249f85d76720e03466ef6d7d0d7e37743a0d3d142b93b",
+    "dex3_runtime_control_v1.py": "9bad9142373c44406fa16b475d69f87f0d100493d1070510c2182eac05af9afe"
+  },
+  "external_dependencies": [
+    "MuJoCo/ONNX Docker image",
+    "autonomous/lidar_mapper.py",
+    "autonomous/path_planner.py",
+    "source robot models and policies",
+    "physical hand reference data"
+  ]
+}
